@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+a {
+    text-decoration: none;
+    color: #2b9cfc;
+}
+
+#app {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 100vh;
+}
+
+#lamp {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#autor {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+#autor>div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#autor img {
+    transition: 200ms;
+}
+
+#autor img:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 2px 6px 0 rgba(0, 0, 0, 0.3);
+}
